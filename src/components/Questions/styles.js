@@ -15,7 +15,7 @@ export const useStyles = makeStyles({
     width: 500,
     top: 128,
     left: '50%',
-    translate: '-50%',
+    transform: 'translate(-50%)',
   },
   scrollView: {
     marginTop: 128,

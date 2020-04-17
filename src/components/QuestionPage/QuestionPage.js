@@ -14,6 +14,7 @@ import { useStyles } from './styles';
 import { makeChartData } from './utils';
 import { VoteChart } from '../VoteChart';
 import { handleAnswerQuestion } from '../../actions/questions';
+import { Redirect } from 'react-router-dom';
 
 export const QuestionPage = (props) => {
   const { question_id } = props.match.params;

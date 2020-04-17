@@ -4,7 +4,13 @@ import { useSelector } from 'react-redux';
 
 export const ProtectedRoute = ({ component: Component, ...rest }) => {
   const authedUser = useSelector((state) => state.authedUser);
-  console.log(rest);
+  const validQuestions = useSelector((state) => Object.keys(state.questions));
+
+  const { question_id } = rest.computedMatch.params;
+
+  if (question_id !== undefined && !validQuestions.includes(question_id)) {
+    return <Redirect to="/questionNotFound" />;
+  }
 
   return (
     <Route
