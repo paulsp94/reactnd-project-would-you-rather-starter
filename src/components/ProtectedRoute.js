@@ -8,7 +8,11 @@ export const ProtectedRoute = ({ component: Component, ...rest }) => {
 
   const { question_id } = rest.computedMatch.params;
 
-  if (question_id !== undefined && !validQuestions.includes(question_id)) {
+  if (
+    question_id !== undefined &&
+    !validQuestions.includes(question_id) &&
+    authedUser !== null
+  ) {
     return <Redirect to="/questionNotFound" />;
   }
 

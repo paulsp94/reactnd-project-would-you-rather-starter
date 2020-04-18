@@ -13,7 +13,6 @@ export const Login = (props) => {
   const authedUser = useSelector((state) => state.authedUser);
   const [user, setUser] = useState(authedUser || '');
   const previous = props.location.state.from || '/';
-  console.log(props);
 
   const handleChange = ({ target }) => setUser(target.value);
   const handleLogin = () => {

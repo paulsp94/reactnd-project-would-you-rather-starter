@@ -52,8 +52,12 @@ export const Questions = () => {
           <TabPanel value={value} index={0} dir={theme.direction}>
             <div className={classes.centering}>
               {unansweredQuestions.map((question) => (
-                <Link to={`/question/${question.id}`} className={classes.link}>
-                  <Question key={question.id} question={question} />
+                <Link
+                  key={question.id}
+                  to={`/question/${question.id}`}
+                  className={classes.link}
+                >
+                  <Question question={question} />
                 </Link>
               ))}
             </div>
@@ -61,8 +65,12 @@ export const Questions = () => {
           <TabPanel value={value} index={1} dir={theme.direction}>
             <div className={classes.centering}>
               {answeredQuestions.map((question) => (
-                <Link to={`/question/${question.id}`} className={classes.link}>
-                  <Question key={question.id} question={question} />
+                <Link
+                  key={question.id}
+                  to={`/question/${question.id}`}
+                  className={classes.link}
+                >
+                  <Question question={question} />
                 </Link>
               ))}
             </div>

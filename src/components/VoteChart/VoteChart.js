@@ -8,7 +8,10 @@ const ChartBlock = (props) => {
   return <span className={classes.block} {...other} />;
 };
 
-const formatLabel = ({ percent, label }) => `${Math.round(percent)}% ${label}`;
+const formatLabel = ({ percent, label, votes }) =>
+  `${Math.round(percent)}% ${label} (${votes} ${
+    votes === 1 ? 'Vote' : 'Votes'
+  })`;
 
 export const VoteChart = ({ data }) => {
   const classes = useStyles();

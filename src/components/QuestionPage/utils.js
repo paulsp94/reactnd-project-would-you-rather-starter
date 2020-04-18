@@ -7,6 +7,7 @@ export const makeChartData = (question, answer) => {
       id: `optionOne`,
       label: question.optionOne.text,
       percent: (question.optionOne.votes.length / totalAnswers) * 100,
+      votes: question.optionOne.votes.length,
       total: question.optionOne.votes.length,
       background:
         answer === 'optionOne'
@@ -18,6 +19,7 @@ export const makeChartData = (question, answer) => {
       id: `optionTwo`,
       label: question.optionTwo.text,
       percent: (question.optionTwo.votes.length / totalAnswers) * 100,
+      votes: question.optionTwo.votes.length,
       total: question.optionTwo.votes.length,
       background:
         answer === 'optionTwo'
