@@ -17,10 +17,7 @@ export const Leaderboard = () => {
   const users = useSelector((state) => state.users);
   const authedUser = useSelector((state) => state.authedUser);
 
-  const sortable = [];
-  for (const user in users) {
-    sortable.push(users[user]);
-  }
+  const sortable = Object.values(users);
 
   sortable.sort(
     (a, b) =>
