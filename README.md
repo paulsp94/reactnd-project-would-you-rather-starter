@@ -17,3 +17,12 @@ or
 or
 
 `yarn start`
+
+## Screenshots
+
+![Login](./screenshots/Login.png)
+![UnansweredQuestions](./screenshots/UnansweredQuestions.png)
+![AnsweredQuestions](./screenshots/AnsweredQuestions.png)
+![AddQuestion](./screenshots/AddQuestion.png)
+![QuestionResults](./screenshots/QuestionResults.png)
+![Leaderboard](./screenshots/Leaderboard.png)
