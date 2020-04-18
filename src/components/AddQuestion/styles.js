@@ -51,4 +51,8 @@ export const useStyles = makeStyles({
     background: 'linear-gradient(225deg, #3f51b5 30%, #21CBF3 90%)',
     boxShadow: '0 3px 5px 2px rgba(33, 203, 243, .3)',
   },
+  input: {
+    color: 'white',
+    fontWeight: 'bold',
+  },
 });

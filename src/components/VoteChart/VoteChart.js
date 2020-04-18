@@ -9,7 +9,7 @@ const ChartBlock = (props) => {
 };
 
 const formatLabel = ({ percent, label, votes }) =>
-  `${Math.round(percent)}% ${label} (${votes} ${
+  `${Math.round(percent)}% ${label}\n(${votes} ${
     votes === 1 ? 'Vote' : 'Votes'
   })`;
 

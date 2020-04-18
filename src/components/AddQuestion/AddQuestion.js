@@ -50,11 +50,21 @@ export const AddQuestion = () => {
           </Typography>
           <Typography variant="body2" component="div" className={classes.body}>
             <Paper className={classes.blueLeft}>
-              <Input value={optionOne} onChange={handleChange} id="one" />
+              <Input
+                className={classes.input}
+                value={optionOne}
+                onChange={handleChange}
+                id="one"
+              />
             </Paper>
             <div className={classes.or}>or</div>
             <Paper className={classes.blueRight}>
-              <Input value={optionTwo} onChange={handleChange} id="two" />
+              <Input
+                className={classes.input}
+                value={optionTwo}
+                onChange={handleChange}
+                id="two"
+              />
             </Paper>
           </Typography>
         </CardContent>
