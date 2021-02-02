@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/reactnd-project-would-you-rather-starter/static/css/main.5ecd60fb.chunk.css",
-    "main.js": "/reactnd-project-would-you-rather-starter/static/js/main.1927cc42.chunk.js",
-    "main.js.map": "/reactnd-project-would-you-rather-starter/static/js/main.1927cc42.chunk.js.map",
+    "main.js": "/reactnd-project-would-you-rather-starter/static/js/main.4ca05532.chunk.js",
+    "main.js.map": "/reactnd-project-would-you-rather-starter/static/js/main.4ca05532.chunk.js.map",
     "runtime-main.js": "/reactnd-project-would-you-rather-starter/static/js/runtime-main.4ae35f78.js",
     "runtime-main.js.map": "/reactnd-project-would-you-rather-starter/static/js/runtime-main.4ae35f78.js.map",
-    "static/js/2.4d413a6e.chunk.js": "/reactnd-project-would-you-rather-starter/static/js/2.4d413a6e.chunk.js",
-    "static/js/2.4d413a6e.chunk.js.map": "/reactnd-project-would-you-rather-starter/static/js/2.4d413a6e.chunk.js.map",
+    "static/js/2.58ae1fd3.chunk.js": "/reactnd-project-would-you-rather-starter/static/js/2.58ae1fd3.chunk.js",
+    "static/js/2.58ae1fd3.chunk.js.map": "/reactnd-project-would-you-rather-starter/static/js/2.58ae1fd3.chunk.js.map",
     "index.html": "/reactnd-project-would-you-rather-starter/index.html",
-    "precache-manifest.daf31b0109406f9bcd6cce8627c81058.js": "/reactnd-project-would-you-rather-starter/precache-manifest.daf31b0109406f9bcd6cce8627c81058.js",
+    "precache-manifest.e4e68183c905bfd163f9c3f493513ef4.js": "/reactnd-project-would-you-rather-starter/precache-manifest.e4e68183c905bfd163f9c3f493513ef4.js",
     "service-worker.js": "/reactnd-project-would-you-rather-starter/service-worker.js",
     "static/css/main.5ecd60fb.chunk.css.map": "/reactnd-project-would-you-rather-starter/static/css/main.5ecd60fb.chunk.css.map",
-    "static/js/2.4d413a6e.chunk.js.LICENSE.txt": "/reactnd-project-would-you-rather-starter/static/js/2.4d413a6e.chunk.js.LICENSE.txt",
+    "static/js/2.58ae1fd3.chunk.js.LICENSE.txt": "/reactnd-project-would-you-rather-starter/static/js/2.58ae1fd3.chunk.js.LICENSE.txt",
     "static/media/background.png": "/reactnd-project-would-you-rather-starter/static/media/background.c7ba7524.png"
   },
   "entrypoints": [
     "static/js/runtime-main.4ae35f78.js",
-    "static/js/2.4d413a6e.chunk.js",
+    "static/js/2.58ae1fd3.chunk.js",
     "static/css/main.5ecd60fb.chunk.css",
-    "static/js/main.1927cc42.chunk.js"
+    "static/js/main.4ca05532.chunk.js"
   ]
 }
