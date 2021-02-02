@@ -39,7 +39,7 @@ const App = () => {
   }, [dispatch]);
 
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <LoadingBar />
       <Nav />
       <div className={classes.background}>
