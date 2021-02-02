@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/reactnd-project-would-you-rather-starter/precache-manifest.28233df1efd98f116f9e33f564c778f8.js"
+  "/reactnd-project-would-you-rather-starter/precache-manifest.daf31b0109406f9bcd6cce8627c81058.js"
 );
 
 self.addEventListener('message', (event) => {
